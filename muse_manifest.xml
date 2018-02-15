@@ -1,0 +1,90 @@
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="danielc.me" resolutions="1x" timestamp="1518683286812">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="master_a-master.css" crc="4105610515" ref="double-negative:index:portfolio:china:photography:viewing-pavilion:london:architecture:potrero-hill-library:paris:about:contact"/>
+    <file name="double-negative.css" crc="397289637" ref="double-negative"/>
+    <file name="index.css" crc="499615341" ref="index"/>
+    <file name="portfolio.css" crc="3861352668" ref="portfolio"/>
+    <file name="china.css" crc="4078089085" ref="china"/>
+    <file name="photography.css" crc="228857656" ref="photography"/>
+    <file name="viewing-pavilion.css" crc="139299357" ref="viewing-pavilion"/>
+    <file name="london.css" crc="260070220" ref="london"/>
+    <file name="architecture.css" crc="4100741681" ref="architecture"/>
+    <file name="potrero-hill-library.css" crc="4054190234" ref="potrero-hill-library"/>
+    <file name="paris.css" crc="219973083" ref="paris"/>
+    <file name="about.css" crc="4122002794" ref="about"/>
+    <file name="contact.css" crc="3822601864" ref="contact"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:about:portfolio:contact:architecture:photography:potrero-hill-library:double-negative:viewing-pavilion:london:china:paris"/>
+    <file name="museutils.js" crc="3803043152" ref="index:about:portfolio:contact:architecture:photography:potrero-hill-library:double-negative:viewing-pavilion:london:china:paris"/>
+    <file name="whatinput.js" crc="86476730" ref="index:about:portfolio:contact:architecture:photography:potrero-hill-library:double-negative:viewing-pavilion:london:china:paris"/>
+    <file name="museconfig.js" crc="4153641093" ref="index:about:portfolio:contact:architecture:photography:potrero-hill-library:double-negative:viewing-pavilion:london:china:paris"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index:about:portfolio:contact:architecture:photography:potrero-hill-library:double-negative:viewing-pavilion:london:china:paris"/>
+    <file name="require.js" crc="4157109226" ref="index:about:portfolio:contact:architecture:photography:potrero-hill-library:double-negative:viewing-pavilion:london:china:paris"/>
+    <file name="webpro.js" crc="242022427" ref="portfolio:contact:architecture:photography"/>
+    <file name="musewpslideshow.js" crc="457073769" ref="portfolio:architecture:photography"/>
+    <file name="jquery.museoverlay.js" crc="483674903" ref="portfolio:architecture:photography"/>
+    <file name="touchswipe.js" crc="4066113679" ref="portfolio:architecture:photography"/>
+    <file name="form_check.php" crc="147359589" ref="contact"/>
+    <file name="form_throttle.php" crc="93986428" ref="contact"/>
+    <file name="form_process.php" crc="3851993751" ref="contact"/>
+    <file name="form-u1379.php" crc="4294936198" ref="contact"/>
+    <file name="jquery.scrolleffects.js" crc="530399994" ref="potrero-hill-library"/>
+  </folder>
+  <folder name="images">
+    <file name="blank.gif" crc="4208392903" ref="index:portfolio:contact:architecture:photography:potrero-hill-library:double-negative:viewing-pavilion:london:china:paris"/>
+    <file name="final 1 test-crop-u546.jpg" crc="3904981018" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="dsc01095-crop-u737.jpg" crc="3855856154" seo="true" ref="portfolio">
+      <caption webpage="portfolio" alt=""/>
+    </file>
+    <file name="final 1 test-crop-u965.jpg" crc="3904981018" seo="true" ref="architecture">
+      <caption webpage="architecture" alt=""/>
+    </file>
+    <file name="dsc02809-crop-u1014.jpg" crc="35318908" seo="true" ref="architecture">
+      <caption webpage="architecture" alt=""/>
+    </file>
+    <file name="dsc02641-edit-crop-u1057.jpg" crc="3945521904" seo="true" ref="architecture">
+      <caption webpage="architecture" alt=""/>
+    </file>
+    <file name="dsc01681-crop-u1187.jpg" crc="3835072445" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc01799-crop-u1230.jpg" crc="4248336300" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="dsc01095-crop-u1273.jpg" crc="127957819" seo="true" ref="photography">
+      <caption webpage="photography" alt=""/>
+    </file>
+    <file name="plan1.svg" crc="4223609233" seo="true" ref="potrero-hill-library">
+      <caption webpage="potrero-hill-library" alt=""/>
+    </file>
+    <file name="plan1_poster_.png" crc="377043128" ref="potrero-hill-library"/>
+    <file name="plan2.svg" crc="3850710244" seo="true" ref="potrero-hill-library">
+      <caption webpage="potrero-hill-library" alt=""/>
+    </file>
+    <file name="plan2_poster_.png" crc="322261016" ref="potrero-hill-library"/>
+    <file name="plan3.svg" crc="181115839" seo="true" ref="potrero-hill-library">
+      <caption webpage="potrero-hill-library" alt=""/>
+    </file>
+    <file name="plan3_poster_.png" crc="4062519567" ref="potrero-hill-library"/>
+    <file name="plan4.svg" crc="412222000" seo="true" ref="potrero-hill-library">
+      <caption webpage="potrero-hill-library" alt=""/>
+    </file>
+    <file name="plan4_poster_.png" crc="3986005784" ref="potrero-hill-library"/>
+  </folder>
+  <file name="index.html" crc="287532462" seo="true" mt="1515653099885" redirect="true"/>
+  <file name="about.html" crc="444704481" seo="true" mt="1515649636745" redirect="true"/>
+  <file name="portfolio.html" crc="3967285589" seo="true" mt="1515649636746" redirect="true"/>
+  <file name="contact.html" crc="3935542560" seo="true" mt="1515649636747" redirect="true"/>
+  <file name="architecture.html" crc="3847988143" seo="true" mt="1515649636747" redirect="true"/>
+  <file name="photography.html" crc="506949902" seo="true" mt="1515649636748" redirect="true"/>
+  <file name="potrero-hill-library.html" crc="3935674993" seo="true" mt="1515653065189" redirect="true"/>
+  <file name="double-negative.html" crc="3856722323" seo="true" mt="1515649636749" redirect="true"/>
+  <file name="viewing-pavilion.html" crc="4198325748" seo="true" mt="1515649636750" redirect="true"/>
+  <file name="london.html" crc="517567000" seo="true" mt="1515649636751" redirect="true"/>
+  <file name="china.html" crc="228680891" seo="true" mt="1515649636751" redirect="true"/>
+  <file name="paris.html" crc="484968681" seo="true" mt="1515649636752" redirect="true"/>
+</manifest>
