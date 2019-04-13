@@ -1,6 +1,8 @@
 // JavaScript Document
 window.scrollTo = function () {};
 
+window.onload=function() {location.href='#';};
+
 $(function() {
   $('.project1').hover(function() {
     $('.color-changing').css('background', '#E8FABB');
