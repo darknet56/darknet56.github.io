@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Week Meal</title>
+	 <!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	 <!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.typekit.net/bwe2boo.css">
+	  
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.2.1.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <div class="backtotop" onclick="backtotop()"><img src="images/backtotop.svg"></div>
+  <body class = "wm">
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<div class="home_button">
+				<a href="index.html"><img src="images/week_meal/home.svg"></a>
+			</div>
+			<div class="logo">
+				<img src="images/week_meal/logo.svg">
+			</div>
+		</div>
+	</div>
+	  
+	
+	  <!--<div class="cover">
+			<img draggable="false" src="images/fxt/Cover.svg"> 
+		 	<div class="home_button"><a href="INDEX.html"><img src="images/fxt/home.svg"></a></div>
+	 </div> -->
+	  
+  	<!-- body code goes here -->
+	<!-- OVERVIEW -->
+	<div class="container">
+		<div class="subtitle"><span>OVERVIEW</span></div>
+		<p class="col-md-12 text-left">Week Meal is a meal planning app that explores designing for mobile devices and complementary platforms like Apple TV completed as part of Intro to Mobile UX Design at SVA taught by Professor Drew Cogbill in Summer 2018. Designing for android, the visual design choices consulted Google's Material Design guidelines.</p> 
+		
+		<p class="col-md-12 text-left">This was an individual project focused on creating and refining an inuitive mobile interface as well as addressing the challenges of a cross platform interface. The project is oriented around the selected personal problem of food waste when cooking.</p>
+		
+		<br>
+	
+	<!-- PROBLEM -->
+		<div class="subtitle">GOALS</div>
+		<div class="row text-center">
+			<div class="col-md-4">
+				<img src="images/week_meal/calendar.svg">
+			</div>
+			<div class="col-md-4">
+				<img src="images/week_meal/dish.svg">
+			</div>
+			<div class="col-md-4">
+				<img src="images/week_meal/ingredients.svg">
+			</div>
+		</div>
+		<br>
+
+		<div class="heavy row text-center">
+			<div class="col-md-4">
+				<p class="text-center">assist planning of meals for the week ahead</p>
+			</div>
+			<div class="col-md-4">
+				<p class="text-center">improve variety and quality of meals planned</p>
+			</div>
+			<div class="col-md-4">
+				<p class="text-center"> minimize grocery shopping and food waste</p>
+			</div>
+		</div>
+		<br>
+		<br>
+		<p class="text-center">Cooking and meal prep can be an effective way to eat better and healthier along with saving money, but poorly planned meal prep can result in boring, repetitive meals, and wasted ingredients. Week Meal seeks to make the process of meal preparation easier, improving variety and quality of meals while planning with regards to efficient ingredient usage to minimize grocery shopping and food waste. </p>
+		
+		<br>
+		<br>
+		
+	<!-- APP MAP/LOW-FI -->
+		<div class="subtitle">APP MAP<br>//LOW-FI</div>
+		<div class="text-center two-line">
+			<img src="images/week_meal/APP_MAP.png">
+			<br>
+			<br>
+			<p class="text-left">Week Meal initially consisted of two main components - the home feed to select appealing recipes and the calendar to view meals scheduled for the week. These are accompanied by a shopping list that contains all the ingredients needed for the week</p>
+			<p class="text-left">The browse screen updates based on meals already added to the calendar to consider items used by other dishes. Being addressed towards working adults, the calendar focuses on just dinner for each day.</p>
+		</div>
+		<br>
+		<br>
+
+
+	<!-- ITERATION -->
+		<div class="subtitle">ITERATION</div>
+		<div class="text-center">
+			<p class="text-left">A few rounds of user testing indicated that the overall user flow was successful but the floating multi-purpose button that swapped between "shopping list" and "add recipe" was confusing. Users also wanted more information as to why recipes were being presented on the main feed.</p>
+			<br>
+			<img style="width: 800px;" src="images/week_meal/ITERATION.png">
+		</div>
+		<br>
+		<br>	
+		<br>
+	<!-- HIGH FIDELITY -->
+		<div class="subtitle">HIGH-FI</div>
+		<p>The final version of the app maintains the home and calendar tab but adds the shopping list to a tab rather than a conditional floating action button.</p>
+		<br>
+		<br>
+		<div style="padding-left: 0px;" class="text-center container">
+			<img style="margin-left: 0px;" src="images/week_meal/hifi.png">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="heavy">Home Feed</div>
+					<p>updated to include preferences setting to adjust suggestions</p>
+				</div>
+				<div class="col-md-3">
+				</div>
+				<div class="col-md-3">
+					<div class="heavy">Shopping List</div>
+					<p>organized in sections based on supermaket orgniazation</p>
+				</div>
+				<div class="col-md-3">
+					<div class="heavy">Calendar</div>
+					<p>edit feature to delete and drag and drop dishes</p>
+				</div>
+			</div>
+			
+		</div>
+		<br>
+		<br>
+	<!-- PROTOTYPE -->
+		<div class="subtitle">PROTOTYPE</div>
+		<div class="text-center prototype">
+			<img src="images/week_meal/pixel_white.svg">
+			<iframe class="mobile" width="411" height="731" src="https://xd.adobe.com/embed/c463637b-f899-4fed-7abc-dc73db5c1745-b252/" frameborder="0" allowfullscreen></iframe>
+			<p class="heavy">Tap to interact!</p>
+		</div>
+	<!-- APPLE TV PROTOTYPE -->
+		<div class="subtitle">APPLE TV<br>PROTOTYPE</div>
+		<div class="two-line container-fluid">
+			<p>The target population of Week Meal includes young professionals and working class that are likely to reside in an apartment in the city. The living room containing a TV, often linked to the kitchen, becomes a hub to broadcast preparation instructions planned for the day. </p>
+			<p>The Apple TV application focuses more heavily on large, easy to follow displays of the steps as well as video content regarding preparation of the meal.</p>
+			<br>
+			<div class="text-center prototype ">
+				<div style="padding: 0;" class="container-fluid">
+					<img src="images/week_meal/tv.svg">
+					<iframe class="tv" width="690" height="500" src="https://xd.adobe.com/embed/f78b33bc-3153-4d12-556c-448072ecd404-81ba/" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<p class="heavy">The Apple TV remote interactions can't be easily recreated on this prototype, but tap to browse through the screens!</p>
+			</div>
+			<br>
+			<br>
+			<div class="text-center">
+				<p>Due to the unconventional nature of prototyping for Apple TV, I utilized drawn paper prototypes and Apple TV remote as well as post-it to indicate the element "in focus." I decided to test the video player to get feedback on how the user should interact with how steps are divided in the video instruction. </p>
+				<div class="row">
+					<div class="col-md-6"><img src="images/week_meal/test1.png"></div>
+					<div class="col-md-6"><img src="images/week_meal/test2.png"></div>			
+				</div>
+				<br>
+				<p>The video player proved particularly challenging due to user expectation as to whether each step would have its own video or link to a video of the entire recipe. During testing user's generally preferred to be able to view the continuous video without division into steps.</p>
+				<br>
+				<img src="images/week_meal/tv_test.png">
+				<br>
+
+				<p>Another challenge that arose with the continuous video was which step does the app return to when the video player is closed? Testers preferred the video to return to the step corresponding to the part of the video that was playing rather than the step the user started the video from.</p>
+			</div>
+		</div>
+		<br>
+	<!-- NEXT STEPS -->
+		<div class="subtitle">NEXT STEPS</div>
+		<div class="container">
+			<p>Regarding the application specifically, Week Meal was grounded in Google's material design; I'd love to explore Apple's iOS design guidelines next.</p>
+			<p>At a wider context, the proliferaiton of smart home devices, offers a chance to explore different mediums of interaction that are especially relevant to the premise of food preparation. </p>
+		</div>
+	  </div>
+	<br>
+	<br>
+	 <!-- FOOTER -->
+	<div class="footer">
+		<div class="container">
+			<div  class="row">
+				<div class="col-md-6 text-center">
+					<p>&copy; 2019 <span class="font-italic font-weight-normal">designed and coded by Daniel Chang</span></p>
+				</div>
+				<div class="col-md-3 text-center">
+					<a href="">contact</a>
+				</div>
+				<div class="col-md-3 text-center">
+				 	<a href="mailto:dnlchang0@gmail.com">dnlchang0@gmail.com</a>
+				</div>
+			</div>
+		</div>
+    </div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.3.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.2.1.js"></script>
+	<script src="js/script.js"></script>
+  </body>
+</html>
