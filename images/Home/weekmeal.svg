@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="325" height="325" viewBox="0 0 325 325">
+  <defs>
+    <filter id="Path_76" x="87" y="14.974" width="152.073" height="296.709" filterUnits="userSpaceOnUse">
+      <feOffset dx="1" dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_33" data-name="Group 33" transform="translate(-798 -1665)">
+    <g id="Group_27" data-name="Group 27" transform="translate(-411 415)">
+      <rect id="Rectangle_21" data-name="Rectangle 21" width="325" height="325" transform="translate(1209 1250)" fill="#ea9474"/>
+      <g id="Asset_7" data-name="Asset 7" transform="translate(1304 1272.974)">
+        <g id="Layer_2" data-name="Layer 2">
+          <g transform="matrix(1, 0, 0, 1, -95, -22.97)" filter="url(#Path_76)">
+            <path id="Path_76-2" data-name="Path 76" d="M11.66,0H122.413a11.66,11.66,0,0,1,11.66,11.66V267.049a11.66,11.66,0,0,1-11.66,11.66H11.66A11.66,11.66,0,0,1,0,267.049V11.66A11.66,11.66,0,0,1,11.66,0Z" transform="translate(95 22.97)" fill="#fff"/>
+          </g>
+          <rect id="Rectangle_26" data-name="Rectangle 26" width="129.481" height="273.799" rx="11.66" transform="translate(2.304 2.213)" fill="#e5e5e5"/>
+          <rect id="Rectangle_27" data-name="Rectangle 27" width="121.131" height="215.211" transform="translate(6.623 31.643)" fill="#ea9474"/>
+          <rect id="Rectangle_28" data-name="Rectangle 28" width="51.283" height="2.879" rx="0.95" transform="translate(41.069 14.382)" fill="#fff"/>
+          <rect id="Rectangle_29" data-name="Rectangle 29" width="51.283" height="2.879" rx="0.95" transform="translate(41.069 262.16)" fill="#fff"/>
+          <circle id="Ellipse_1" data-name="Ellipse 1" cx="2.561" cy="2.561" r="2.561" transform="translate(20.489 13.942)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="meal_plan" data-name="meal plan" transform="translate(1324 1356)">
+        <g id="title" transform="translate(4 -12)">
+          <path id="Path_2634" data-name="Path 2634" d="M61.825,52.947A1.375,1.375,0,0,0,63.2,51.572v-.687a1.375,1.375,0,1,0-2.75,0v.687A1.375,1.375,0,0,0,61.825,52.947Z" transform="translate(-18.892 -15.473)" fill="#fff"/>
+          <path id="Path_2635" data-name="Path 2635" d="M53.841,45.75h1.066a1.375,1.375,0,1,0,0-2.75H53.875a1.375,1.375,0,1,0,0,2.75Z" transform="translate(-16.408 -13.439)" fill="#fff"/>
+          <path id="Path_2636" data-name="Path 2636" d="M68.375,45.75h1.031a1.375,1.375,0,1,0,0-2.75H68.375a1.375,1.375,0,1,0,0,2.75Z" transform="translate(-20.939 -13.439)" fill="#fff"/>
+          <path id="Path_2637" data-name="Path 2637" d="M61.825,37.072A1.375,1.375,0,0,0,63.2,35.7V30.885a1.375,1.375,0,1,0-2.75,0V35.7A1.375,1.375,0,0,0,61.825,37.072Z" transform="translate(-18.892 -9.223)" fill="#fff"/>
+          <path id="Path_2638" data-name="Path 2638" d="M45.725,58.043a1.519,1.519,0,0,0-.866-.935l-1.5-.687a5.713,5.713,0,0,1-3.389-5.857l.179-1.629a1.526,1.526,0,0,0-.756-1.533l-.062-.034a1.375,1.375,0,0,0-.371-.151h-.254a1.237,1.237,0,0,0-.275,0h-.144l-.186.048a1.691,1.691,0,0,0-.481.247l-1.313.907a5.706,5.706,0,0,1-6.765,0l-1.32-.969a1.595,1.595,0,0,0-2.53,1.457l.172,1.629a5.7,5.7,0,0,1-3.375,5.857l-1.506.687a1.54,1.54,0,0,0-.873.962H45.732Z" transform="translate(-6.285 -14.732)" fill="#fff"/>
+          <path id="Path_2639" data-name="Path 2639" d="M60.738,0H26.571A26.564,26.564,0,0,0,0,26.571V59.625A27.712,27.712,0,0,0,27.685,87.309h31.94A27.712,27.712,0,0,0,87.309,59.625V26.571A26.564,26.564,0,0,0,60.738,0ZM81.617,59.625a22,22,0,0,1-22,22H27.685a22,22,0,0,1-22-22V43.311H9.625a5.892,5.892,0,0,1,.247-1.237,5.61,5.61,0,0,1,3.19-3.5l1.506-.687a1.6,1.6,0,0,0,.942-1.636l-.179-1.629A5.72,5.72,0,0,1,24.4,29.383l1.327.969a1.588,1.588,0,0,0,1.884,0l1.327-.969c.055-.041.117-.069.179-.11a14.306,14.306,0,0,1,28.125-.144H58.2A18.459,18.459,0,0,1,76.1,43.311h5.706Z" transform="translate(0 0)" fill="#fff"/>
+          <path id="Path_2640" data-name="Path 2640" d="M78.416,48.38a14.169,14.169,0,0,0-6.778,1.712l-.089.048c-.364.2-.687.412-1.045.632l-.131.089a14.26,14.26,0,0,0-2.007,1.671c-.048.041-.089.089-.131.131-.275.275-.529.557-.777.852l-.124.1a14.265,14.265,0,0,0-2.564,4.812H92.076A14.334,14.334,0,0,0,78.416,48.38Z" transform="translate(-20.242 -15.12)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <text id="week_meal" data-name="week
+meal" transform="translate(961 1872)" fill="#fff" font-size="26" font-family="Lato-Semibold, Lato" font-weight="600" letter-spacing="0.025em"><tspan x="-31.792" y="0">week</tspan><tspan x="-28.36" y="22">meal</tspan></text>
+  </g>
+</svg>

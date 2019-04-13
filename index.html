@@ -1,68 +1,158 @@
 <!DOCTYPE html>
-<html class="nojs html css_verticalspacer" lang="en-US">
- <head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daniel Chang</title>
+	  <!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.typekit.net/bwe2boo.css">
+	  
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.2.1.css" rel="stylesheet">
+	  
+	<!-- CSS Styles -->
+	<link href="css/styles.css" rel="stylesheet"> 
+	  
 
-  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
-  <meta name="generator" content="2018.0.0.379"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  
-  <script type="text/javascript">
-   // Update the 'nojs'/'js' class on the html node
-document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
+  </head>
+	<div class="backtotop" onclick="backtotop()"><img src="images/backtotop.svg"></div>
+  <body class="home">
+	<div class="container-fluid">
+	<!-- This is the "Intro" -->
+		<div class="logo-wrap text-center">
+			<div class="main-logo text-center">
+				<div class="logo-text">d<span class="scramble1">a</span>n<span class="scramble2">ie</span>l</div>
+			</div>	
+			<p class="text-center">Hi, I'm Daniel. I'm a product designer trained in architecture.
+				I do a little of just about everything and a lot of human-centered design.</p>
+		</div>
+		<div class="down-arrow hvr-hang" onclick="scrolldown()"><img src="images/Home/arrow.svg"></div>
+	</div>
+    
 
-// Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "index.css"], "outOfDate":[]};
-</script>
-  
-  <title>Home</title>
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=323856677" id="pagesheet"/>
-  <!-- JS includes -->
-  <script src="https://use.typekit.net/ik/HrYb0kE0TXZniUTdNkhRXCyl9pI7YQQBYQ5TLdkHcatfe1GJEzx3ggJTwQMkwDqoFDyLFDsKwAFcF2boFcwhwcIhFDZRjAjXZRMoFhwDjDb3jQb-4KG0ZeB0-AmCjkolZPUqjAoTZAUROcu8OYiaikoqjAoTZAUROcu8J6i3dag3-AoDH6GJK79fIMMj2PMfP6sFiWF8qMYd8O2Wgb.js" type="text/javascript"></script>
-  <!-- Other scripts -->
-  <script type="text/javascript">
-   try {Typekit.load();} catch(e) {}
-</script>
-   </head>
- <body>
+    <div class="jumbotron jumbotron-fluid text-center color-changing">
+      	<!-- Projects go in this jumbotron -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div style="color: grey; border-color: grey;" class="project-hover text-center hover1">
+						<div class="container-fluid">
+							<p class="heavy">Farm x Table</p>
+							<p>an autonomous produce delivery service that brings the farm to you</p>
+						</div>
+					</div>
+					<a href="farm_x_table.html"><img  class="project1" src="images/Home/farmxtable.svg" draggable="false"></a>
+					
+				</div>
+				<div class="col-md-4">
+					<div class="project-hover text-center hover2">
+						<div class="container-fluid">
+							<p class="heavy">frame x frame</p>
+							<p>improving the online shopping experience<br>+<br>building a brand identity</p>
+						</div>
+					</div>					
+					<a href="frame_x_frame.html"><img class="project2" src="images/Home/fxf.png" draggable="false"></a>
+					
+				</div>
+				<div class="col-md-4">
+					<div class="project-hover text-center hover3">
+						<div class="container-fluid">
+							<p class="heavy">Creative Guild Recruitment Research</p>
+							<p>Communicating Creative Guild's value to recruiters.</p>
+						</div>
+					</div>
+					<a href="creative_guild.html"><img class="project3" src="images/Home/cg.svg" draggable="false"></a>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-4">
+					<div class="project-hover text-center hover4">
+						<div class="container-fluid">
+							<p class="heavy">Feeling Forward</p>
+							<p>navigation aid via auditory and haptic feedback</p>
+						</div>
+					</div>
+					<a href="feeling_forward.html"><img class="project4" src="images/Home/ff.svg" draggable="false"></a>
+				</div>
+				<div class="col-md-4">
+					<div class="project-hover text-center hover5">
+						<div class="container-fluid">
+							<p class="heavy">Week Meal</p>
+							<p>organizing meal prep to reduce food waste and create better meals</p>
+						</div>
+					</div>
+					<a href="week_meal.html"><img class="project5" src="images/Home/weekmeal.svg" draggable="false"></a>
+				</div>
+				<div class="col-md-4">
+					<div class="project-hover text-center hover6">
+						<div class="container-fluid">
+							<p class="heavy">Bonus!</p>
+							<p>see my architectural work and photography</p>
+						</div>
+					</div>
+					<a href=""><img style="box-shadow: none;" class="project6" src="images/Home/misc.svg" draggable="false"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+    <div style="width: 50%;" class="container">
+	<!-- this is the about me and contact page section -->
+		<div class="row">
+			<div class="col-md-5"><img src="images/Home/profile.png"></div>
+			<div class="col-md-7">
+				<p class="font-weight-bold">ABOUT ME</p>
+				<p>My name's Daniel; I'm a product designer with a background in architecture. I explore a bit of everything, from photography to mixology and quite a few things in between.</p>
+				<p>The breadth of these design and creative experiences help me understand commonalities and empathize in unfamiliar situations. </p>
+				<p style="font-weight: 400" class="font-italic">P.S. you might notice my logo on other pages is different; click on my <a style="color: #707070;" href="">logo</a> a couple times to learn more about it!</p><br>
+				<br>
+				
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="text-center">
+				<p style="font-family: 'source sans pro', sans-seirf; color: #FAC9B8; font-weight: 600; margin-bottom: 5px;">Want to talk? Contact me at:</p>
+				<div class="email-button"><a style="text-decoration: none;" href="mailto:dnlchang0@gmail.com">dnlchang0@gmail.com</a></div>
+		</div>
+    </div>
+	<br>
+	<br>
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 text-center">
+					<p>&copy; 2019 <span class="font-italic font-weight-normal">designed and coded by Daniel Chang</span></p>
+				</div>
+				<div class="col-md-3 text-center">
+					<a href="">contact</a>
+				</div>
+				<div class="col-md-3 text-center">
+				 	<a href="mailto:dnlchang0@gmail.com">dnlchang0@gmail.com</a>
+				</div>
+			</div>
+		</div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.3.1.min.js"></script>
 
-  <div class="clearfix borderbox" id="page"><!-- column -->
-   <div class="clip_frame colelem" id="u109"><!-- image -->
-    <img class="block" id="u109_img" src="images/interior%20rendering%202.jpg?crc=504001011" alt="" data-heightwidthratio="0.5625" data-image-width="960" data-image-height="540"/>
-   </div>
-   <div class="clearfix colelem" id="u94-11" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-    <p>Hi! Looks like we're still under construction.</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>In the mean time, please reference:</p>
-    <p id="u94-9"><a class="nonblock" href="https://www.behance.net/gallery/65204711/Portfolio-Spring-2018?" target="_blank">https://www.behance.net/gallery/65204711/Portfolio-Spring-2018?</a></p>
-   </div>
-   <div class="verticalspacer" data-offset-top="793" data-content-above-spacer="793" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
-  </div>
-  <!-- Other scripts -->
-  <script type="text/javascript">
-   // Decide weather to suppress missing file error or not based on preference setting
-var suppressMissingFileError = false
-</script>
-  <script type="text/javascript">
-   window.Muse.assets.check=function(d){if(!window.Muse.assets.checked){window.Muse.assets.checked=!0;var b={},c=function(a,b){if(window.getComputedStyle){var c=window.getComputedStyle(a,null);return c&&c.getPropertyValue(b)||c&&c[b]||""}if(document.documentElement.currentStyle)return(c=a.currentStyle)&&c[b]||a.style&&a.style[b]||"";return""},a=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),
-16);return 0},g=function(g){for(var f=document.getElementsByTagName("link"),h=0;h<f.length;h++)if("text/css"==f[h].type){var i=(f[h].href||"").match(/\/?css\/([\w\-]+\.css)\?crc=(\d+)/);if(!i||!i[1]||!i[2])break;b[i[1]]=i[2]}f=document.createElement("div");f.className="version";f.style.cssText="display:none; width:1px; height:1px;";document.getElementsByTagName("body")[0].appendChild(f);for(h=0;h<Muse.assets.required.length;){var i=Muse.assets.required[h],l=i.match(/([\w\-\.]+)\.(\w+)$/),k=l&&l[1]?
-l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
-f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
-setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch"],function(d){var $ = d;$(document).ready(function(){try{
-window.Muse.assets.check($);/* body */
-Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
-Muse.Utils.prepHyperlinks(true);/* body */
-Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
-Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.showWidgetsWhenReady();/* body */
-Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
-}catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
-
-</script>
-  <!-- RequireJS script -->
-  <script src="scripts/require.js?crc=4157109226" type="text/javascript" async data-main="scripts/museconfig.js?crc=4153641093" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
-   </body>
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.2.1.js"></script>
+	<script src="js/scramble-ES5.min.js"></script>
+	<script src="js/script.js"></script>
+  </body>
 </html>
