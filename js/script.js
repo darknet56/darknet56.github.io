@@ -1,5 +1,5 @@
 // JavaScript Document
-
+window.scrollTo = function () {};
 
 $(function() {
   $('.project1').hover(function() {
