@@ -84,6 +84,7 @@ img{
 }
 
 .backtotop{
+	width: 6vh;
 	position: fixed;
 	bottom: 7vh;
 	right: 7vw;
@@ -102,6 +103,7 @@ img{
 }
 .main-logo .logo-text{
 	color:white;
+	font-family: futura-pt;
 	font-weight:600;
 	display:inline-block;
 	font-size: 65pt;
@@ -119,6 +121,7 @@ img{
 .logo-text span{
 }
 .down-arrow{
+	width: 6vh;
 	position: absolute;
 	bottom: 10vh;
 	left: 50%;
@@ -128,7 +131,7 @@ img{
 .logo-wrap p{
 	margin-top: 50px;
 	font-style: italic;
-	font-size: 24pt;
+	font-size: 18pt;
 	font-weight: 300;
 	line-height: 1.2;
 	position:absolute;
