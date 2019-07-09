@@ -138,7 +138,7 @@ img{
 .down-arrow{
 	width: 6vh;
 	position: absolute;
-	bottom: 10vh;
+	bottom: 5vh;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
