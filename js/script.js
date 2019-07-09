@@ -14,7 +14,7 @@ $(function() {
   }, 
 	function() {
     // on mouseout, reset the background colour
-    $('.color-changing').css('background-color', '#FAC9B8');
+    $('.color-changing').css('background-color', '#FFFFFF');
 	$('.project2, .project3, .project4, .project5, .project6').css('opacity', '1');
 	$('.project1').css('opacity', '1');
 	$('.hover1').css('display', 'none');
@@ -31,7 +31,7 @@ $(function() {
   }, 
 	function() {
     // on mouseout, reset the background colour
-    $('.color-changing').css('background-color', '#FAC9B8');
+    $('.color-changing').css('background-color', '#FFFFFF');
 	$('.project1, .project3, .project4, .project5, .project6').css('opacity', '1');
 	$('.project2').css('opacity', '1');
 	$('.hover2').css('display', 'none');
@@ -48,7 +48,7 @@ $(function() {
   }, 
 	function() {
     // on mouseout, reset the background colour
-    $('.color-changing').css('background-color', '#FAC9B8');
+    $('.color-changing').css('background-color', '#FFFFFF');
 	$('.project1, .project2, .project4, .project5, .project6').css('opacity', '1');
 	$('.project3').css('opacity', '1');
 	$('.hover3').css('display', 'none');
@@ -65,7 +65,7 @@ $(function() {
   }, 
 	function() {
     // on mouseout, reset the background colour
-    $('.color-changing').css('background-color', '#FAC9B8');
+    $('.color-changing').css('background-color', '#FFFFFF');
 	$('.project1, .project2, .project3, .project5, .project6').css('opacity', '1');
 	$('.project4').css('opacity', '1');
 	$('.hover4').css('display', 'none');
@@ -82,7 +82,7 @@ $(function() {
   }, 
 	function() {
     // on mouseout, reset the background colour
-    $('.color-changing').css('background-color', '#FAC9B8');
+    $('.color-changing').css('background-color', '#FFFFFF');
 	$('.project1, .project2, .project3, .project4, .project6').css('opacity', '1');
 	$('.project5').css('opacity', '1');
 	$('.hover5').css('display', 'none');

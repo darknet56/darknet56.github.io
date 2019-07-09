@@ -1,1 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="325.624" height="325.624" viewBox="0 0 325.624 325.624"><g transform="translate(-1212.942 -1664.942)"><g transform="translate(1213 1665)" fill="none" stroke="#fff" stroke-width="6"><rect width="149.05" height="149.05" stroke="none"/><rect x="3" y="3" width="143.05" height="143.05" fill="none"/></g><g transform="translate(1213 1841)" fill="none" stroke="#fff" stroke-width="6"><rect width="149.05" height="149.05" stroke="none"/><rect x="3" y="3" width="143.05" height="143.05" fill="none"/></g><g transform="translate(1389 1665)" fill="none" stroke="#fff" stroke-width="6"><rect width="149.05" height="149.05" stroke="none"/><rect x="3" y="3" width="143.05" height="143.05" fill="none"/></g><g transform="translate(1389 1841)" fill="none" stroke="#fff" stroke-width="6"><rect width="149.05" height="149.05" stroke="none"/><rect x="3" y="3" width="143.05" height="143.05" fill="none"/></g><line y1="145.381" x2="145.381" transform="translate(1215.064 1667.064)" fill="none" stroke="#fff" stroke-width="6"/><line y1="145.381" x2="145.381" transform="translate(1215.064 1843.064)" fill="none" stroke="#fff" stroke-width="6"/><line y1="145.381" x2="145.381" transform="translate(1391.064 1667.064)" fill="none" stroke="#fff" stroke-width="6"/><line y1="145.381" x2="145.381" transform="translate(1391.064 1843.064)" fill="none" stroke="#fff" stroke-width="6"/><line x1="144.923" y1="144.923" transform="translate(1215.064 1667.064)" fill="none" stroke="#fff" stroke-width="6"/><line x1="144.923" y1="144.923" transform="translate(1215.064 1843.064)" fill="none" stroke="#fff" stroke-width="6"/><line x1="144.923" y1="144.923" transform="translate(1391.064 1667.064)" fill="none" stroke="#fff" stroke-width="6"/><line x1="144.923" y1="144.923" transform="translate(1391.064 1843.064)" fill="none" stroke="#fff" stroke-width="6"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 325.6 325.6" style="enable-background:new 0 0 325.6 325.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#ECECEB;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#ECECEB;stroke-width:6;}
+</style>
+<g transform="translate(-1212.942 -1664.942)">
+	<g transform="translate(1213 1665)">
+		<rect x="0" y="0" class="st0" width="149.1" height="149.1"/>
+		<rect x="3" y="3" class="st1" width="143.1" height="143.1"/>
+	</g>
+	<g transform="translate(1213 1841)">
+		<rect x="0" y="0" class="st0" width="149.1" height="149.1"/>
+		<rect x="3" y="3" class="st1" width="143.1" height="143.1"/>
+	</g>
+	<g transform="translate(1389 1665)">
+		<rect x="0" y="0" class="st0" width="149.1" height="149.1"/>
+		<rect x="3" y="3" class="st1" width="143.1" height="143.1"/>
+	</g>
+	<g transform="translate(1389 1841)">
+		<rect x="0" y="0" class="st0" width="149.1" height="149.1"/>
+		<rect x="3" y="3" class="st1" width="143.1" height="143.1"/>
+	</g>
+	<line class="st1" x1="1215.1" y1="1812.4" x2="1360.4" y2="1667.1"/>
+	<line class="st1" x1="1215.1" y1="1988.4" x2="1360.4" y2="1843.1"/>
+	<line class="st1" x1="1391.1" y1="1812.4" x2="1536.4" y2="1667.1"/>
+	<line class="st1" x1="1391.1" y1="1988.4" x2="1536.4" y2="1843.1"/>
+	<line class="st1" x1="1360" y1="1812" x2="1215.1" y2="1667.1"/>
+	<line class="st1" x1="1360" y1="1988" x2="1215.1" y2="1843.1"/>
+	<line class="st1" x1="1536" y1="1812" x2="1391.1" y2="1667.1"/>
+	<line class="st1" x1="1536" y1="1988" x2="1391.1" y2="1843.1"/>
+</g>
+</svg>
