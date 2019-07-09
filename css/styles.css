@@ -41,8 +41,6 @@ img{
 .footer{
 	padding-bottom: 20px;
 	padding-top: 20px;
-	width: auto;
-   	margin: 0;
 	color: white;
 }
 .footer a{
@@ -184,7 +182,7 @@ img{
 	color: white;
 	position:absolute;
 	width:85%;
-	padding-top: 85%;
+	padding-top: 80%;
 	line-height: 1.2;
 	border-color: white;
 	border-width: 6px;
