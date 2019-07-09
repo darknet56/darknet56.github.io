@@ -39,6 +39,7 @@ img{
 	margin-left: 20px;
 }
 .footer{
+	padding-bottom: 20px;
 	padding-top: 20px;
 	width: auto;
    	margin: 0;
@@ -183,7 +184,7 @@ img{
 	color: white;
 	position:absolute;
 	width:85%;
-	height:85%;
+	padding-top: 85%;
 	line-height: 1.2;
 	border-color: white;
 	border-width: 6px;
@@ -237,7 +238,7 @@ img{
 	background-color: #FAC9B8;
 	color:white;
 	font-weight:600;
-	font-size: 21pt;
+	font-size: 18pt;
 	display: inline-block;
 	padding: 10px 20px 10px 20px;
 		transition: box-shadow .25s;
