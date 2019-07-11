@@ -157,16 +157,6 @@ img{
 .home img{
 	margin-bottom:0;
 }
-
-.img-container::after{
-	box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .08) inset;
-	content: '';
- 	display: block;
-	height: 100%;
- 	position: absolute;
- 	top: 0;
- 	width: 100%;
-}
 .color-changing {
 	border-top: 2px solid #ECECEB;
 	border-bottom: 2px solid #ECECEB;
