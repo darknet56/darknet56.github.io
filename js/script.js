@@ -8,6 +8,7 @@ $(function() {
     $('.color-changing').css('background', '#E8FABB');
 	$('.color-changing').css('transition', 'background .4s');
 	$('.project2, .project3, .project4, .project5, .project6').css('opacity', '.25');
+	$('.img-frame').css('border-color','rgba(255,255,255,.02)')
 	$('.project1').css('opacity', '0');
 	$('.hover1').css('display', 'inline-block');
 	$('.project1').css('transition', 'opacity .25s');
