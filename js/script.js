@@ -8,16 +8,17 @@ $(function() {
     $('.color-changing').css('background', '#E8FABB');
 	$('.color-changing').css('transition', 'background .4s');
 	$('.project2, .project3, .project4, .project5, .project6').css('opacity', '.25');
-	$('.img-frame').css('border-color','rgba(255,255,255,.02)')
-	$('.project1').css('opacity', '0');
+	$('.img-frame').css('border-color','rgba(255,255,255,.02)');
+	$('.project1 img').css('opacity', '0');
 	$('.hover1').css('display', 'inline-block');
-	$('.project1').css('transition', 'opacity .25s');
+	$('.project1 img').css('transition', 'opacity .25s');
   }, 
 	function() {
     // on mouseout, reset the background colour
     $('.color-changing').css('background-color', '#FFFFFF');
 	$('.project2, .project3, .project4, .project5, .project6').css('opacity', '1');
-	$('.project1').css('opacity', '1');
+	$('.img-frame').css('border-color','rgba(255,255,255,.08)');
+	$('.project1 img').css('opacity', '1');
 	$('.hover1').css('display', 'none');
   });
 });
@@ -26,15 +27,17 @@ $(function() {
     $('.color-changing').css('background', '#9E3A3A');
 	$('.color-changing').css('transition', 'background .4s');
 	$('.project1, .project3, .project4, .project5, .project6').css('opacity', '.25');
-	$('.project2').css('opacity', '0');
+	$('.img-frame').css('border-color','rgba(255,255,255,.02)');
+	$('.project2 img').css('opacity', '0');
 	$('.hover2').css('display', 'inline-block');
-	$('.project2').css('transition', 'opacity .25s');
+	$('.project2 img').css('transition', 'opacity .25s');
   }, 
 	function() {
     // on mouseout, reset the background colour
     $('.color-changing').css('background-color', '#FFFFFF');
 	$('.project1, .project3, .project4, .project5, .project6').css('opacity', '1');
-	$('.project2').css('opacity', '1');
+	$('.img-frame').css('border-color','rgba(255,255,255,.08)');
+	$('.project2 img').css('opacity', '1');
 	$('.hover2').css('display', 'none');
   });
 });
@@ -43,15 +46,17 @@ $(function() {
     $('.color-changing').css('background', '#B8D5B8');
 	$('.color-changing').css('transition', 'background .4s');
 	$('.project1, .project2, .project4, .project5, .project6').css('opacity', '.25');
-	$('.project3').css('opacity', '0');
+	$('.img-frame').css('border-color','rgba(255,255,255,.02)');
+	$('.project3 img').css('opacity', '0');
 	$('.hover3').css('display', 'inline-block');
-	$('.project3').css('transition', 'opacity .25s');
+	$('.project3 img').css('transition', 'opacity .25s');
   }, 
 	function() {
     // on mouseout, reset the background colour
     $('.color-changing').css('background-color', '#FFFFFF');
 	$('.project1, .project2, .project4, .project5, .project6').css('opacity', '1');
-	$('.project3').css('opacity', '1');
+	$('.img-frame').css('border-color','rgba(255,255,255,.08)');
+	$('.project3 img').css('opacity', '1');
 	$('.hover3').css('display', 'none');
   });
 });
@@ -60,15 +65,17 @@ $(function() {
     $('.color-changing').css('background', '#73E6D3');
 	$('.color-changing').css('transition', 'background .4s');
 	$('.project1, .project2, .project3, .project5, .project6').css('opacity', '.25');
-	$('.project4').css('opacity', '0');
+	$('.img-frame').css('border-color','rgba(255,255,255,.02)');
+	$('.project4 img').css('opacity', '0');
 	$('.hover4').css('display', 'inline-block');
-	$('.project4').css('transition', 'opacity .25s');
+	$('.project4 img').css('transition', 'opacity .25s');
   }, 
 	function() {
     // on mouseout, reset the background colour
     $('.color-changing').css('background-color', '#FFFFFF');
 	$('.project1, .project2, .project3, .project5, .project6').css('opacity', '1');
-	$('.project4').css('opacity', '1');
+	$('.img-frame').css('border-color','rgba(255,255,255,.08)');
+	$('.project4 img').css('opacity', '1');
 	$('.hover4').css('display', 'none');
   });
 });
@@ -77,15 +84,17 @@ $(function() {
     $('.color-changing').css('background', '#EA9474');
 	$('.color-changing').css('transition', 'background .4s');
 	$('.project1, .project2, .project3, .project4, .project6').css('opacity', '.25');
-	$('.project5').css('opacity', '0');
+	$('.img-frame').css('border-color','rgba(255,255,255,.02)');
+	$('.project5 img').css('opacity', '0');
 	$('.hover5').css('display', 'inline-block');
-	$('.project5').css('transition', 'opacity .25s');
+	$('.project5 img').css('transition', 'opacity .25s');
   }, 
 	function() {
     // on mouseout, reset the background colour
     $('.color-changing').css('background-color', '#FFFFFF');
 	$('.project1, .project2, .project3, .project4, .project6').css('opacity', '1');
-	$('.project5').css('opacity', '1');
+	$('.img-frame').css('border-color','rgba(255,255,255,.08)');
+	$('.project5 img').css('opacity', '1');
 	$('.hover5').css('display', 'none');
   });
 });
@@ -93,14 +102,16 @@ $(function() {
   $('.project6').hover(function() {
 	$('.color-changing').css('transition', 'background .4s');
 	$('.project1, .project2, .project3, .project4, .project5').css('opacity', '.25');
-	$('.project6').css('opacity', '0');
+	$('.img-frame').css('border-color','rgba(255,255,255,.02)');
+	$('.project6 img').css('opacity', '0');
 	$('.hover6').css('display', 'inline-block');
-	$('.project6').css('transition', 'opacity .25s');
+	$('.project6 img').css('transition', 'opacity .25s');
   }, 
 	function() {
     // on mouseout, reset the background colour
 	$('.project1, .project2, .project3, .project4, .project5').css('opacity', '1');
-	$('.project6').css('opacity', '1');
+	$('.img-frame').css('border-color','rgba(255,255,255,.08)');
+	$('.project6 img').css('opacity', '1');
 	$('.hover6').css('display', 'none');
 	$('.hover6').css('transition', 'opacity .25s');
   });
