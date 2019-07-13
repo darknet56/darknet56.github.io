@@ -3,6 +3,33 @@ window.scrollTo = function () {};
 
 window.onload=function() {location.href='#';};
 
+var $el = $(".logo-frame");
+var elHeight = $el.outerHeight();
+var elWidth = $el.outerWidth();
+
+var $wrapper = $(".logo-wrap");
+
+
+
+function doResize(width, height) {
+  
+  var scale, origin;
+    
+  scale = Math.min(
+    width / elWidth -.25*(width / elWidth),    
+    height / elHeight -.25*(height / elHeight)
+  );
+  
+  $el.css({
+    transform:"translate(-50%,-50%) " + "scale(" + scale + ")"
+  });
+  
+}
+
+$(window).resize(
+	doResize($wrapper.width(), $wrapper.height())
+);
+
 $(function() {
   $('.project1').hover(function() {
     $('.color-changing').css('background', '#E8FABB');

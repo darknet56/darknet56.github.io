@@ -96,18 +96,17 @@ img{
 	width: 780px;
 	padding: 140px 175px 140px 175px;
 	box-shadow: 12px 12px 1px #ECECEB, 9px 9px 1px #ECECEB, 6px 6px 1px #ECECEB, 3px 3px 1px #ECECEB, 3px 3px 8px 3px rgba(0, 0, 0, .13);
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	position:absolute;
 }
 .logo-wrap{
 	height: 100vh;
 }
 .main-logo{
-	display: inline-block;
-	position:absolute;
-	margin-top: 450px;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -150%);
-	transform: translate(-50%, -150%);
+	
 }
 .main-logo .logo-text{
 	cursor: pointer;
