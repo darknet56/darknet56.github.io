@@ -10,8 +10,7 @@ var elWidth = $el.outerWidth();
 var $wrapper = $(".logo-wrap");
 
 
-
-function doResize(width, height) {
+/*function doResize(width, height) {
   
   var scale, origin;
     
@@ -23,12 +22,28 @@ function doResize(width, height) {
   $el.css({
     transform:"translate(-50%,-50%) " + "scale(" + scale + ")"
   });
-  
-}
+doResize($wrapper.width(), $wrapper.height());*/
 
-$(window).resize(
-	doResize($wrapper.width(), $wrapper.height())
-);
+$(window).resize(function() {
+  
+  var scale, origin;
+  var width = $(".logo-wrap").width();
+  var height = $(".logo-wrap").height();
+    
+  scale = Math.min(
+    width / elWidth -.25*(width / elWidth),    
+    height / elHeight -.25*(height / elHeight)
+  );
+  
+  $el.css({
+    transform:"translate(-50%,-50%) " + "scale(" + scale + ")"
+  });
+});
+
+$(window).resize();
+
+
+
 
 $(function() {
   $('.project1').hover(function() {
