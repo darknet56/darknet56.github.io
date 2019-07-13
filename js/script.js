@@ -8,22 +8,6 @@ var elHeight = $el.outerHeight();
 var elWidth = $el.outerWidth();
 
 var $wrapper = $(".logo-wrap");
-
-
-/*function doResize(width, height) {
-  
-  var scale, origin;
-    
-  scale = Math.min(
-    width / elWidth -.25*(width / elWidth),    
-    height / elHeight -.25*(height / elHeight)
-  );
-  
-  $el.css({
-    transform:"translate(-50%,-50%) " + "scale(" + scale + ")"
-  });
-doResize($wrapper.width(), $wrapper.height());*/
-
 $(window).resize(function() {
   
   var scale, origin;
@@ -36,6 +20,9 @@ $(window).resize(function() {
   );
   
   $el.css({
+    transform:"translate(-50%,-50%) " + "scale(" + scale + ")"
+  });
+  $(".art-label").css({
     transform:"translate(-50%,-50%) " + "scale(" + scale + ")"
   });
 });
@@ -51,6 +38,7 @@ $(function() {
 	$('.color-changing').css('transition', 'background .4s');
 	$('.project2, .project3, .project4, .project5, .project6').css('opacity', '.25');
 	$('.img-frame').css('border-color','rgba(255,255,255,.02)');
+	$('.img-frame.project1').css('border-color','#707070');
 	$('.project1 img').css('opacity', '0');
 	$('.hover1').css('display', 'inline-block');
 	$('.project1 img').css('transition', 'opacity .25s');
@@ -70,6 +58,7 @@ $(function() {
 	$('.color-changing').css('transition', 'background .4s');
 	$('.project1, .project3, .project4, .project5, .project6').css('opacity', '.25');
 	$('.img-frame').css('border-color','rgba(255,255,255,.02)');
+	$('.img-frame.project2').css('border-color','white');
 	$('.project2 img').css('opacity', '0');
 	$('.hover2').css('display', 'inline-block');
 	$('.project2 img').css('transition', 'opacity .25s');
@@ -89,6 +78,7 @@ $(function() {
 	$('.color-changing').css('transition', 'background .4s');
 	$('.project1, .project2, .project4, .project5, .project6').css('opacity', '.25');
 	$('.img-frame').css('border-color','rgba(255,255,255,.02)');
+	$('.img-frame.project3').css('border-color','white');
 	$('.project3 img').css('opacity', '0');
 	$('.hover3').css('display', 'inline-block');
 	$('.project3 img').css('transition', 'opacity .25s');
@@ -108,6 +98,7 @@ $(function() {
 	$('.color-changing').css('transition', 'background .4s');
 	$('.project1, .project2, .project3, .project5, .project6').css('opacity', '.25');
 	$('.img-frame').css('border-color','rgba(255,255,255,.02)');
+	$('.img-frame.project4').css('border-color','white');
 	$('.project4 img').css('opacity', '0');
 	$('.hover4').css('display', 'inline-block');
 	$('.project4 img').css('transition', 'opacity .25s');
@@ -127,6 +118,7 @@ $(function() {
 	$('.color-changing').css('transition', 'background .4s');
 	$('.project1, .project2, .project3, .project4, .project6').css('opacity', '.25');
 	$('.img-frame').css('border-color','rgba(255,255,255,.02)');
+	$('.img-frame.project5').css('border-color','white');
 	$('.project5 img').css('opacity', '0');
 	$('.hover5').css('display', 'inline-block');
 	$('.project5 img').css('transition', 'opacity .25s');
@@ -145,6 +137,7 @@ $(function() {
 	$('.color-changing').css('transition', 'background .4s');
 	$('.project1, .project2, .project3, .project4, .project5').css('opacity', '.25');
 	$('.img-frame').css('border-color','rgba(255,255,255,.02)');
+	$('.img-frame.project6').css('border-color','#707070');
 	$('.project6 img').css('opacity', '0');
 	$('.hover6').css('display', 'inline-block');
 	$('.project6 img').css('transition', 'opacity .25s');
