@@ -11,9 +11,6 @@ body {
 	padding: 0px;
 	max-width: 768px;
 }
-.cover{
-	width:auto;
-}
 .heavy{
 	font-weight: 700;
 }
@@ -27,17 +24,36 @@ img{
 .home_button {
 	position: relative;
 	bottom: 0px;
-	text-align: right;
-	right: 100%;
-	margin-right: 20px;
+	text-align: center;
+}
+@media (min-width: 768px) {
+	.home_button {
+		position: relative;
+		bottom: 0px;
+		text-align: right;
+		right: 100%;
+		margin-right: 20px;
+	}
 }
 .home_button img {
 	width: 160px;
 }
 .logo{
 	position:relative;
-	top:-60px;
-	margin-left: 20px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom:60px;
+}
+
+@media (min-width: 768px) {
+	.logo{
+		position:relative;
+		top:-60px;
+		margin-left: 20px;
+		text-align: left;
+		margin-top:0px;
+		margin-bottom: 0px;
+	}
 }
 .footer{
 	padding-bottom: 20px;
@@ -48,23 +64,27 @@ img{
 	color: white;
 }
 .subtitle{
-	text-align: right;
-	position:relative;
-	right: 100%;
-	top: 25px;
-	margin-right: 30px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 600;
 	font-size: 14pt;
 	color: #000000;
-	
+	margin-left: 15px;
+	text-align: center;
+	margin-bottom: 15px;
 }
-.two-line {
-	margin-top: -20px;
-}
-.subtitle span{
-	
-	
+@media (min-width: 768px) {
+	.subtitle{
+		text-align: right;
+		position:relative;
+		right: 100%;
+		top: 25px;
+		margin-right: 30px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+	}
+	.two-line {
+		margin-top: -20px;
+	}
 }
 .prototype {
 	position:relative;
@@ -227,8 +247,9 @@ img{
 	line-height: 1.25;
 	padding-left: 10px;
 	padding-right: 10px;
-	padding-top: 1px;
-	height: 185px;
+	padding-top: 100%;
+	width:100%;
+	margin-bottom: 10px;
 	
 }
 .sticky_note hr{
@@ -274,9 +295,19 @@ img{
 /* Farm x Table */
 .fxt .logo{
 	position:relative;
-	top:-65px;
-	margin-left: 20px;
-	width: 365px;	
+	text-align: center;
+	margin-top: 70px;
+}
+
+@media (min-width: 768px) {
+	.fxt .logo{
+		position:relative;
+		top:-65px;
+		margin-left: 20px;
+		width: 365px;
+		margin-top: 0px;
+		text-align: left;
+	}
 }
 .fxt .heavy {
 	font-weight: 700;
@@ -285,10 +316,17 @@ img{
 .fxt .jumbotron {
 	background-color: #B2DC8F;
 	background-size:100%;
-	width: 100%;
+	width: 100vw;
 	padding-bottom: 0px;
 }
-
+@media (min-width: 768px) {
+	.fxt .jumbotron {
+		background-color: #B2DC8F;
+		background-size:100%;
+		width: 100%;
+		padding-bottom: 0px;
+	}
+}
 .fxt .footer {
 	background-color: #B2DC8F; 
 }
@@ -319,9 +357,18 @@ img{
 }
 .fxf .logo{
 	position:relative;
-	top:-87px;
-	margin-left: 0px;
-	width: 365px;	
+	text-align: center;
+	margin-top: 70px;
+}
+@media (min-width: 768px) {
+	.fxf .logo{
+		position:relative;
+		top:-87px;
+		margin-left: 0px;
+		width: 365px;
+		margin-top: 0px;
+		text-align: left;
+	}
 }
 .fxf .heavy {
 	font-weight: 700;
@@ -389,7 +436,11 @@ img{
 }
 .microsite {
 	line-height: 1.1;
-	margin-left: -65px;
+}
+@media (min-width: 768px) {
+	.microsite {
+		margin-left: -65px;
+	}
 }
 .microsite .row{
 	position: relative;
@@ -404,11 +455,6 @@ img{
 .microsite .col-md-8{
 	padding-left:30px;
 }
-/* .key {
-	position:absolute;
-	margin-left:-70px;
-	width: 31px;
-} */
 .rotated{
 	width: 150px;
     margin-right: 0px;
@@ -419,9 +465,6 @@ img{
     text-align: right;
     transform-origin: 0 0;
     transform: rotate(270deg);
-    /*margin-top: 10px;
-	margin-left:-3px;*/
-	
 	margin-top: 165px;
 	margin-left: -30px;
 }
@@ -463,8 +506,16 @@ img{
 
 /* Feeling Forward */
 .ff .logo{
-	position:relative;
-	top:-50px;
+	text-align: center;
+	margin-top: 70px;
+}
+@media (min-width: 768px) {
+	.ff .logo{
+		position:relative;
+		top:-50px;
+		margin-top: -5px;
+		text-align: left;
+	}
 }
 .ff .jumbotron {
 	background: url(../images/ff/cover.png);
@@ -500,9 +551,19 @@ img{
 /* Week Meal */
 .wm .logo{
 	position:relative;
-	top:-72px;
-	width: 365px;	
+	text-align: center;
+	margin-top: 70px;
 }
+@media (min-width: 768px) {
+	.wm .logo{
+		position:relative;
+		top:-72px;
+		width: 365px;	
+		margin-top: 0px;
+		text-align: left;
+	}
+}
+
 .wm .jumbotron {
 	background: url("../images/week_meal/cover.png");
 	background-position: center;
