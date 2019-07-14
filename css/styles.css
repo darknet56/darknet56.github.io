@@ -315,7 +315,6 @@ img{
 .fxt .logo{
 	position:relative;
 	text-align: center;
-	margin-top: 70px;
 }
 
 @media (min-width: 768px) {
@@ -377,7 +376,8 @@ img{
 .fxf .logo{
 	position:relative;
 	text-align: center;
-	margin-top: 70px;
+		margin: 0px 10px;
+
 }
 @media (min-width: 768px) {
 	.fxf .logo{
@@ -526,7 +526,7 @@ img{
 /* Feeling Forward */
 .ff .logo{
 	text-align: center;
-	margin-top: 70px;
+	margin: 0px 10px;
 }
 @media (min-width: 768px) {
 	.ff .logo{
