@@ -126,6 +126,13 @@ img{
 	height: 100vh;
 	position: relative;
 }
+.profile-frame{
+	width:85%;
+	padding-top:85%;
+	margin: 20px;
+	padding: 4vw;
+	box-shadow: 12px 12px 1px #ECECEB, 9px 9px 1px #ECECEB, 6px 6px 1px #ECECEB, 3px 3px 1px #ECECEB, 3px 3px 8px 3px rgba(0, 0, 0, .13);	
+}
 .main-logo{
 	
 }
