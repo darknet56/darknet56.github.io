@@ -203,12 +203,13 @@ button {
 #pageSubmenu .custom-underline{
 	font-size: 14pt;
 	font-weight: 300;
+	color: #7A776C;
 }
 .custom-underline,
 .custom-underline:hover,
 .custom-underline:focus,
 .custom-underline:active {
-  color: #CEC9BC;
+  color: #9E9986;
   text-decoration: none;
 }
 
@@ -221,7 +222,7 @@ button {
   height: 2.5px;
   width: 0%;
   right: 5%;
-  background-color: #CEC9BC;
+  background-color: #9E9986;
     transition: 0.5s ease all .2s;
 }
 
@@ -322,7 +323,7 @@ button {
 	font-size:16pt;
 	font-weight: 300;
 	line-height: 1.2;
-	color: #CEC9BC;
+	color: #7A776C;
 }
 @media(max-width:576px){
 	.about.vertical-center{
