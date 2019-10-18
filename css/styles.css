@@ -346,14 +346,14 @@ button {
 	transition: all .3s ease;
 }
 .contact-title{
-	color: #CEC9BC;
+	color: #9E9986;
 	font-size: 24pt;
 	font-weight: 600;
 	margin-bottom: 5px;
 	transition: all .5s ease-in-out;
 }
 .contact-wrapper{
-	background: #CEC9BC;
+	background: #9E9986;
 	padding: 40px 80px 40px 60px;
 	transition: all .3s ease-in-out;
 
