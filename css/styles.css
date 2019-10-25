@@ -504,6 +504,11 @@ button {
 	box-shadow: 0px 2px 3px 2px hsla(0, 0%, 0%, .06);
 	margin-bottom: 15px;
 }
+@media(max-width:768px){
+	.coming-soon img{
+		width: 100%;
+	}
+}
 /* animation effects */
 /* hang */
 
