@@ -28,7 +28,7 @@ $(document).ready(function () {
 		$('.contact-title').css({color:"#B8B4A8"});
 		$('.link-button').css({opacity:.6});
 		}, function() {
-		$('.contact-title').css({color:"#CEC9BC"});
+		$('.contact-title').css({color:"#9E9986"});
 		$('.link-button').css({opacity: 1});
 	});
 	$('.link-button:nth-child(1)').hover(function(){
@@ -46,7 +46,17 @@ $(document).ready(function () {
 		},function(){
 		$(".email-button, .link-button:nth-child(2), .link-button:nth-child(1)").css({opacity: 1});	
 	});
-	
+	//Masonry
+	var $grid = $('.grid').imagesLoaded( function() {
+	// init Masonry after all images have loaded
+	$grid.masonry({
+    	// options...
+		itemSelector: '.grid-item',
+		columnWidth: '.grid-sizer',
+		percentPosition: true,
+		gutter: '.gutter-sizer'
+		});
+	});
 	// Home Logo
 	$(document).ready(function() {
 		Scrambler({
@@ -62,8 +72,6 @@ $(document).ready(function () {
 			text: 'ie'		
 		});
 	});
-
-
 	var index = 0
 	var color_list = ['#71DBD4', '#F9C2DC', '#89ABE3', '#B8CFCF','#6495ed', '#FAC9B8','#FAC9B8'];
 	var names = [['b','pa'], ['v','wu'], ['c','ch'], ['g','ho'], ['h','ua'], ['\u25A1','\u25A1\u25A1'],['a', 'ie']]
@@ -85,21 +93,6 @@ $(document).ready(function () {
 			text: names[index][1]		
 		});
 		index = (index +1)%color_list.length;
-		/*if ((index +1) == color_list.length){
-			Scrambler({
-				target: '.logo-wrap p',
-				random: [100, 450],
-				speed: 100,
-				text: "I paired my friends' favorite colors with a 3 letter abbreviation of their name that replaces the vowels. Inspired by my email - dnlchang0@gmail.com"
-			});
-		}else if(index==0){
-			Scrambler({
-				target: '.logo-wrap p',
-				random: [100, 450],
-				speed: 100,
-				text: "Hi, my name's Daniel. I'm a product designer trained in architecture.I do a little of just about everything and a lot of human-centered design."
-			});
-		}*/  
         });
 	});
 });

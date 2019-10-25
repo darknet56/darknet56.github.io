@@ -420,8 +420,91 @@ button {
 .link-button{
 	transition: all .3s ease-in-out;
 }
+/* Work */
+.work .container-fluid{
+	padding:10vh 10%;
+}
+.grid{
+	width: 100%;
+}
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.grid img{
+	width: 100%;
+	box-shadow: 0px 2px 3px 2px hsla(0, 0%, 0%, .06);
+}
+.gutter-sizer{
+	width: 1.5%;
+}
+.grid-item, .grid-sizer{
+	width: 32%;
+}
+.grid-item{
+	float: left;
+	margin-bottom: 1.5%;
+	height: auto;
+}
+.zoom{
+	transition: all .2s ease-in-out;
+	
+}
+.zoom:hover{
+  	-ms-transform: scale(1.02); /* IE 9 */
+ 	-webkit-transform: scale(1.02); /* Safari 3-8 */
+  	transform: scale(1.02); 
+
+}
+@media(max-width:576px){
+	.grid-item, .grid-sizer{
+		width:100% !important;
+	}
+	.grid-item{
+		margin-bottom: 10%;
+	}
+	.work .container-fluid{
+		padding:15%
+	}
+	.grid-item:nth-last-child(1), .grid-item:nth-last-child(2), .grid-item:nth-last-child(3){
+		display:none;
+	}
+}
+@media(max-width:1200px){
+	.grid-item, .grid-sizer{
+		width:49%;
+	}
+}
+.blank{
+	background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 100 100'><path d='M100 0 L0 100 ' stroke='%23CEC9BC' stroke-width='1'/><path d='M0 0 L100 100 ' stroke='%23CEC9BC' stroke-width='1'/></svg>");
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: 100% 100%, auto;
+    border: solid #CEC9BC 3px;
+    width: 100%;
+	height: 0;
+	padding-bottom: 75%;
+	transition: all .3s ease;
+}
+.blank:hover{
+	opacity: .4;
+}
+.grid-item:nth-last-child(3) .blank{
+	padding-bottom: 100%;
+}
 /* Misc */
+.coming-soon{
+	text-align: center;
+	font-size: 18pt !important;
+	color: #9E9986;
+}
+.coming-soon img{
+	width: 75%;
+	box-shadow: 0px 2px 3px 2px hsla(0, 0%, 0%, .06);
+	margin-bottom: 15px;
+}
 /* animation effects */
 /* hang */
-C
+
 
