@@ -487,11 +487,33 @@ button {
 	padding-bottom: 75%;
 	transition: all .3s ease;
 }
-.blank:hover{
-	opacity: .4;
-}
+.blank:hover{opacity: .4;}
 .grid-item:nth-last-child(3) .blank{
 	padding-bottom: 100%;
+}
+.button{
+	margin: 0px 5px;
+	background: none;
+	color: #9E9986;
+	opacity: .6;
+	transition: all .3s ease-in-out;
+}
+button:focus {outline:0;}
+.button.is-checked{opacity: 1;}
+.button-group{margin-bottom: 10px;}
+
+.underline-container .custom-underline-2::after {
+  top: 90%;
+  height: 2.5px;
+  width: 0%;
+  left: 5%;
+  background-color: #9E9986;
+    transition: 0.5s ease all .2s;
+}
+
+.underline-container:hover .custom-underline-2::after {
+  width: 90%;
+    transition: 0.2s ease all;
 }
 /* Misc */
 .coming-soon{

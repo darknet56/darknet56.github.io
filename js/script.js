@@ -47,7 +47,7 @@ $(document).ready(function () {
 		$(".email-button, .link-button:nth-child(2), .link-button:nth-child(1)").css({opacity: 1});	
 	});
 	//Masonry
-	var $grid = $('.grid').imagesLoaded( function() {
+	/*var $grid = $('.grid').imagesLoaded( function() {
 	// init Masonry after all images have loaded
 	$grid.masonry({
 		// options...
@@ -56,7 +56,34 @@ $(document).ready(function () {
 		percentPosition: true,
 		gutter: '.gutter-sizer'
 		});
+	});*/
+	
+	var $grid = $('.grid').imagesLoaded( function() {
+		// init Isotope after all images have loaded
+		$grid.isotope({
+			// options...
+			itemSelector: '.grid-item',
+			percentPosition: true,
+			layoutMode: 'masonry',
+			masonry: {
+				columnWidth: '.grid-sizer',
+				gutter: '.gutter-sizer'
+			}
+		});
 	});
+	// bind filter button click
+$('.filters-button-group').on( 'click', 'button', function() {
+  var filterValue = $( this ).attr('data-filter');
+  $grid.isotope({ filter: filterValue });
+});
+// change is-checked class on buttons
+$('.button-group').each( function( i, buttonGroup ) {
+  var $buttonGroup = $( buttonGroup );
+  $buttonGroup.on( 'click', 'button', function() {
+    $buttonGroup.find('.is-checked').removeClass('is-checked');
+    $( this ).addClass('is-checked');
+  });
+});
 	// Home Logo
 	$(document).ready(function() {
 		Scrambler({
