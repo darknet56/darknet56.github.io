@@ -223,7 +223,7 @@ button {
   width: 0%;
   right: 5%;
   background-color: #9E9986;
-    transition: 0.5s ease all .2s;
+	transition: 0.5s ease all .2s;
 }
 
 .underline-container:hover .custom-underline::after {
@@ -503,17 +503,11 @@ button:focus {outline:0;}
 .button-group{margin-bottom: 10px;}
 
 .underline-container .custom-underline-2::after {
-  top: 90%;
-  height: 2.5px;
-  width: 0%;
-  left: 5%;
-  background-color: #9E9986;
-    transition: 0.5s ease all .2s;
+	width: 0%;
 }
 
-.underline-container:hover .custom-underline-2::after, .custom-underline-2:focus {
-  width: 90%;
-    transition: 0.2s ease all;
+.underline-container:hover .custom-underline-2::after{
+	width: 90%;
 }
 /* Misc */
 .photo-centric .container-fluid{
