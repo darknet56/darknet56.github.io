@@ -191,6 +191,7 @@ button {
 .sidebar-header img{
 	width: 120px;
 }
+
 /*Custom Underline*/
 .normal-underline,
 .custom-underline {
@@ -429,6 +430,10 @@ button {
 }
 .link-button{
 	transition: all .3s ease-in-out;
+}
+/* Cartwheel */
+video{
+	width: 50%;
 }
 /* Work */
 .work .container-fluid{
