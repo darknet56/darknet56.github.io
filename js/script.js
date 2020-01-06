@@ -74,9 +74,7 @@ $(document).ready(function () {
   });
 
   //Isotope
-  var $grid = $('.grid').imagesLoaded(function () {
-    // init Isotope after all images have loaded
-    $grid.isotope({
+    var $grid=$('.grid').isotope({
       // options...
       itemSelector: '.grid-item',
       percentPosition: true,
@@ -86,7 +84,9 @@ $(document).ready(function () {
         gutter: '.gutter-sizer'
       }
     });
-  });
+$grid.imagesLoaded().progress( function() {
+  $grid.isotope('layout');
+});
   // bind filter button click
   $('.filters-button-group').on('click', 'button', function () {
     var filterValue = $(this).attr('data-filter');
