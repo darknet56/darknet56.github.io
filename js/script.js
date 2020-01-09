@@ -132,7 +132,7 @@ var theta = 0;
 		theta = theta + 15;
     	$('.logo-background img').css('transform', 'rotate(' + theta + 'deg)');
 		scramble();
-	  }else{
+		}else{
 		theta = theta - 15;
     	$('.logo-background img').css('transform', 'rotate(' + theta + 'deg)');
 		scramble();
@@ -154,7 +154,14 @@ var theta = 0;
       ticking = true;
     });
   })();
+  $(window).on('resize', function(){
+	  if ($(window).width > $(window).height*2){
+		  theta = 90;
+		  window.alert("now");
+	  }
+  });
   /*var theta = 0;
+  
 
   $(window).bind('mousewheel DOMMouseScroll', function () {
     theta = theta + 15;
