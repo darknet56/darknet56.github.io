@@ -104,7 +104,6 @@ $grid.imagesLoaded().progress( function() {
   });
 
   // Home Logo
-  $(document).ready(function () {
     Scrambler({
       target: '.main-logo .scramble1',
       random: [100, 600],
@@ -117,9 +116,13 @@ $grid.imagesLoaded().progress( function() {
       speed: 100,
       text: 'ie'
     });
-  });
 	
 var theta = 0;
+  $('.main-logo').click(function(){
+	theta = theta+180;
+	$('.logo-background img').css('transform', 'rotate(' + theta + 'deg)');
+	scramble();
+  });
   (function () {
     var supportOffset = window.pageYOffset !== undefined,
       lastKnownPos = 0,
@@ -154,12 +157,7 @@ var theta = 0;
       ticking = true;
     });
   })();
-  $(window).on('resize', function(){
-	  if ($(window).width > $(window).height*2){
-		  theta = 90;
-		  window.alert("now");
-	  }
-  });
+ 
   /*var theta = 0;
   
 
