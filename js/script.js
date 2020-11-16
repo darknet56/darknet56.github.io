@@ -240,7 +240,7 @@ $(function() {
 
    $('.side-scroll').mousewheel(function(event, delta) {
 
-      this.scrollLeft -= (delta * 200);
+      this.scrollLeft -= (delta * 75);
     
       event.preventDefault();
 
