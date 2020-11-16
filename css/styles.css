@@ -3,6 +3,9 @@
 ::-webkit-scrollbar-track {background: #f1f1f1;}
 ::-webkit-scrollbar-thumb {  background: #c2c0b9;}
 ::-webkit-scrollbar-thumb:hover {background: #9E9986;}
+html{
+	scroll-behavior: smooth;
+}
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16pt;
@@ -19,7 +22,7 @@ body {
 }
 .vertical-center{
 	position: absolute;
-	top: 50vh;
+	top: 50%;
 	right: 50%;
 	transform: translate(50%,-50%);
 	margin: 0 auto;
@@ -541,8 +544,14 @@ button:focus {outline:0;}
 .side-scroll{
 	height: 575px;
 	width: 100%;
-	overflow-x: auto;
+	overflow-x: scroll;
 	overflow-y: hidden;
+	scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+.side-scroll::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
 }
 .side-inner{
 	height: 100%;
@@ -565,5 +574,49 @@ p a:hover{
 	margin-bottom: 30px;
 }
 
+.scroll
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.colony-wrapper {
+	position:absolute;
+	height:900px;
+	width: 900px;
+}
+.colony-background {
+	height: 900px;
+	width: 900px;
+	object-fit: fill;
+}
+.colony-scroll{
+height: 900px;
+}
+.colony-background-2{
+	position:absolute;
+}
+.page-scroll{
+	left: 0;
+	white-space: nowrap;
+	padding:0px 0 0;
+}
+.colony-item{
+	display: inline-block;
+}
+.colony-image{
+	outline-style: solid;
+	outline-color: white;
+	outline-width: 15px;
+
+	height: 550px;
+	margin: 0 700px 0 700px;
+	
+}
 
 
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}

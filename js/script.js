@@ -197,3 +197,53 @@ var theta = 0;
       index = (index + 1) % color_list.length;
     }
 });
+// parallax attempt
+/*$.fn.moveIt = function(){
+  var $window = $('.side-scroll');
+  var instances = [];
+
+  $(this).each(function(){
+    instances.push(new moveItItem($(this)));
+  });
+
+  window.scroll = function(){
+    var scrollLeft = $window.scrollLeft();
+    instances.forEach(function(inst){
+      inst.update(scrollLeft);
+    });
+  }
+}
+
+var moveItItem = function(el){
+  this.el = $(el);
+  this.speed = parseInt(this.el.attr('data-scroll-speed'));
+};
+
+moveItItem.prototype.update = function(scrollLeft){
+  var pos = scrollLeft / this.speed;
+  this.el.css('transform', 'translateX(' + -pos + 'px)');
+};
+
+$(function(){
+  $('[data-scroll-speed]').moveIt();
+});*/
+
+//pls work
+$(function() {
+	$('.side-scroll').mousewheel(function(event,delta){
+		$('#scroll1').css('transform', 'translate(' + ($('.side-scroll').scrollLeft()/1.5) + 'px)')
+		$('#scroll2').css('transform', 'translate(' + ($('.side-scroll').scrollLeft()/4) + 'px,-50%)')
+	});
+});
+//side scroll with mousewheel
+$(function() {
+
+   $('.side-scroll').mousewheel(function(event, delta) {
+
+      this.scrollLeft -= (delta * 200);
+    
+      event.preventDefault();
+
+   });
+
+});
