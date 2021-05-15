@@ -229,7 +229,7 @@ $(function(){
 });*/
 
 //pls work
-$(function() {
+/*$(function() {
 	$('.side-scroll').mousewheel(function(event,delta){
 		$('#scroll1').css('transform', 'translate(' + ($('.side-scroll').scrollLeft()/1.5) + 'px)')
 		$('#scroll2').css('transform', 'translate(' + ($('.side-scroll').scrollLeft()/4) + 'px,-50%)')
@@ -246,4 +246,4 @@ $(function() {
 
    });
 
-});
+});*/
