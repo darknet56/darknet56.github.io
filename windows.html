@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About Me</title>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+    <title>Space Colony</title>
 	  <!-- Favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -20,7 +20,7 @@
     <link href="css/bootstrap-4.2.1.css" rel="stylesheet">
 	  
 	<!-- CSS Styles -->
-	<link href="css/styles.css" rel="stylesheet">
+	<link href="css/styles.css?v=1.4" rel="stylesheet">
 	<link href="css/jquery.mCustomScrollbar.min.css" rel="stylesheet">
 	<link href="css/hamburgers.min.css" rel="stylesheet">
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
@@ -32,15 +32,17 @@
 	<script src="js/scramble-ES5.min.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript" src="js/jquery.jInvertScroll.js"></script>
+	<script type="text/javascript" src="js/jquery/mousewheel.min.js"></script>
 	  
 
   </head>
 	<!-- nav bar -->
 <body>
-  <div class="wrapper">
+	<div class="wrapper">
 	  <nav class="sidebar">
 		<div class="sidebar-header">
-			<a href="index.html"><img src="images/Home/logo.svg"></a>
+			<a href="index.html"><img id="home-logo" src="images/Home/logo.svg"></a>
         </div>
 
         <ul class="list-unstyled components">
@@ -58,19 +60,39 @@
   </div>
 	<!-- button(s) -->
     <button type="button" class="menu-toggle">Menu</button>
-	
 	<!-- body -->
-	<div id="content">
-		<div Style="transform: translate(50%,15%)" class="about vertical-center">
-		<div class="me text-center container-fluid">
-			<div class="border-gradient circular"><img src="images/Home/profile.png"></div>
-			<p>Hi my name is Daniel. Through my work, I explore the significance of seemingly mundane and quotidian moments in creating memorable experiences in the built environment.
-			<br>
-			<br>
-			I'm current pursuing my Master of Architecture at Columbia University and graduated with high honors from UC Berkeley's College of Environmental design. Website designed and coded by me.</p>
-		</div>
+	<div id="content" class="ethereal photo-centric">
+		<div class="container-fluid">
+			<div style="position: relative" class="text-left title">Window - Computer Window</div>
+			<img style="padding:0px 100px 100px 0px" src="images/2a-animation.gif">
+			<p class="description"></p> 
 		</div>
 	</div>
+	<!--<div>
+		<div class="container-fluid">
+		<!-- This is the "Intro" -->
+			<!--<div class="logo-wrap text-center">
+				<div class="colony-background vertical-center">
+						<img class="colony-background" src="images/colony/background.png">
+					</div>
+				<div class="colony-wrapper vertical-center side-scroll">
+					
+					<div id="scroll1" class="colony-background2 ">
+						<div class="colony-scroll"><img class="colony-scroll" src="images/colony/colony.png"></div>
+					</div>
+					<div  id="scroll2" class="page-scroll vertical-center ">
+						<div class="colony-item"><img class="colony-image" src="images/colony/title.png"></div>
+						<div class="colony-item"><img class="colony-image" src="images/colony/takeoff.png"></div>
+						<div class="colony-item"><img class="colony-image" src="images/colony/docking.png"></div>
+						<div class="colony-item"><img class="colony-image" src="images/colony/elevator.png"></div>
+						<div class="colony-item"><img class="colony-image" src="images/colony/interior.png"></div>
+					</div>
+					
+				</div>
+					
+			</div>
+		</div>
+	</div> -->
 	<!-- Dark Overlay element -->
     <div class="overlay"></div>
  </body>

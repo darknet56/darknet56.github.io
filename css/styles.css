@@ -333,7 +333,7 @@ button {
 .circular {
 	width: 60%;
 	margin: 0px auto 50px;
-	border-radius:50%;
+	/*border-radius:50%;*/
 }
 .border-gradient{
 	background: linear-gradient(290deg, #71DBD4, #F9C2DC, #89ABE3, #FAC9B8, #B8CFCF);
@@ -345,7 +345,7 @@ button {
 }
 .me img{
 	width:100% !important;
-	border-radius:50%;
+	border-radius:0%;
 	padding: 0px !important;
 }
 .me p{
